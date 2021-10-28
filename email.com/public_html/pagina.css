@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-25deg, rgb(32, 36, 150), firebrick, lightseagreen, navy);
+}
+footer {
+    margin-top: auto;
+    align-items: baseline;
+}
+img {
+    align-items: center;
+}
+#form{
+    padding: 2em;
+    border: 1px solid #CCC;
+    border-radius: 3em;
+}
+#form #lembrete{
+    position: absolute;
+    display: block;
+}
+fieldset{
+    width: 300px;
+    height: 250px;
+}
+#pic{
+    position: relative;
+    display:inline-block;
+    height: 200px;
+    width: 250px;
+}
+#lemb{
+    height:200px;
+    font-size: 20px;
+}
+#info{
+    border-style: dotted;
+}
+#lembrete{
+    align-content: left;
+}
